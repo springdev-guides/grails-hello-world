@@ -1,0 +1,26 @@
+= Grails: 编写一个 Hello World 应用
+rain
+2019-01-15
+
+本文介绍如何使用 Grails 快速创建一个 Web 应用，使用 Groovy 语言编写一个简单的 “Hello World”，使用 Gradle 构建并运行起来。
+
+Grails 从 3.0 开始基于 Spring Boot 构建，因此完全可以看做是一个 Spring Boot 框架，通过其核心技术如 GORM、GSP、JSON 视图、插件，在其基础上借助 Groovy 语言的动态语言特性和强大的 DSL 表达能力，学习起来非常容易。目前 Grails 最新版本是 3.3.9，基于 Spring Boot 版本是 1.5.18，4.0 将会升级 Spring Boot 到 2.1，而底层使用 Micronaut for Spring 重写，与 Micronaut 优势完美结合在一起。
+
+== 介绍
+
+内容简介： 一个简单的 Grails Web 应用示例
+语言框架： Groovy、Grails
+难度级别： L1
+阅读时间： 10 分钟
+
+== 工具准备
+
+* Java SDK : 8.0
+* Grails : 3.3.9
+* Gradle : 4.10.2
+* IntelliJ IDEA : 2018.3
+* Curl / HTTPie
+
+== 教程
+
+网址： https://springdev.io/guides/grails/grails-hello-world/[grails-hello-world]
